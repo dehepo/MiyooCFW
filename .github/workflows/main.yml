@@ -138,12 +138,12 @@ jobs:
     with:
       submodule: uboot
 
-  # https://github.com/MiyooCFW/kernel/blob/master/.github/workflows/build.yml
+  # https://github.com/dehepo/kernel/tree/master/.github/workflows/build.yml
   kernel:
     needs: 
     - docker-uclibc
     - docker-musl
-    uses: MiyooCFW/kernel/.github/workflows/build.yml@master
+    uses: dehepo/kernel/.github/workflows/build.yml@master
     with:
       submodule: kernel
         
