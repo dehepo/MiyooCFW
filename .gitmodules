@@ -12,7 +12,7 @@
 	url = https://github.com/MiyooCFW/daemon
 [submodule "kernel"]
 	path = kernel
-	url = https://github.com/MiyooCFW/kernel
+	url = https://github.com/dehepo/kernel
 [submodule "logo"]
 	path = logo
 	url = https://github.com/MiyooCFW/logo
